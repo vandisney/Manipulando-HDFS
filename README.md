@@ -18,8 +18,8 @@
 </ul>
  Para realização das atividades acima foi necessário os seguintes comandos:
 <p>
- hdfs dfs -mkdir -p /user/aluno/vandisney/data 
- hdfs dfs -mkdir -p /user/aluno/vandisney/delete
+ hdfs dfs -mkdir -p /user/aluno/vandisney/data </br>
+ hdfs dfs -mkdir -p /user/aluno/vandisney/delete </br>
  hdfs dfs -mkdir -p /user/aluno/vandisney/recover 
 </p> 
 
@@ -59,11 +59,11 @@
 ![imagem12](https://github.com/vandisney/Manipulando-HDFS/blob/main/images/imagem12.png)
 
 ### ✍️ 11- Criar um arquivo em branco com o nome de “test”  e alterar o fator de replicação do arquivo “test” para 2.
- > A criação dO arquivo test foi usado o comando: `hdfs dfs -touchz /user/aluno/vandisney/data/teste `
+   > A criação dO arquivo test foi usado o comando: `hdfs dfs -touchz /user/aluno/vandisney/data/teste `
    É possível listar a pasta para Validação da ação acima através do comando: `hdfs dfs -ls /user/aluno/vandisney/data/ ` 
 ![imagem13](https://github.com/vandisney/Manipulando-HDFS/blob/main/images/imagem13.png)
 
- > Para replicamos o arquivo teste em 2 datanodes, e para isso vamos aplicar o comando: `hdfs dfs -setrep 2 /user/aluno/vandisney/data/teste ` Conforme é possível observar na imagem abaixo, a segunda coluna mostra a quantidade de replicação.
+   > Para replicamos o arquivo teste em 2 datanodes, e para isso vamos aplicar o comando: `hdfs dfs -setrep 2 /user/aluno/vandisney/data/teste ` Conforme é possível observar na imagem abaixo, a segunda coluna mostra a quantidade de replicação.
 ![imagem14](https://github.com/vandisney/Manipulando-HDFS/blob/main/images/imagem14.png)
 
 ### ✍️ 12- Exibir o espaço livre do data e o uso do disco.
