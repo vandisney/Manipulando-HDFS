@@ -2,8 +2,8 @@
  O objetivo deste respositório é desenvolver um exercício do treinamento da empresa @Semantix. Esse exercício tem como base a manipulação do HDFS (Hadoop Distributed File System) distribuindo por etapas. Vale ressaltar que desafio foi desenvolvido em docker!
  
  ### ✍️ 1- Iniciar o cluster de Big Data.
-     Para acessar o cluster Bigdata é necessária a utilização do comando: `docker-compose up -d `.
-![imagem1](https://github.com/vandisney/Manipulando-HDFS/blob/main/images/imagem1.png)
+     Para acessar o cluster Bigdata é necessária a utilização do comando:  ```docker-compose up -d```
+ ![imagem1](https://github.com/vandisney/Manipulando-HDFS/blob/main/images/imagem1.png)
 
 ### ✍️ 2- Acessar o container do namenode.
     É possível acessar o namenode através do comando: `docker exec -it namenode bash ` .
